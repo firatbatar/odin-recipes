@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.ingredients li {
+    margin-bottom: 8px;
+}
+
+.recipes li,
+.recipes a {
+    text-decoration: underline;
+    color: #000;
+    font-size: 22px;
+}
