@@ -3,8 +3,11 @@ h1 {
 }
 
 img {
+    display: block;
     width: 400px;
     height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 li {
@@ -12,12 +15,41 @@ li {
     margin-bottom: 15px;
 }
 
-.ingredients li {
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 75px;
+    justify-content: space-between;
+}
+
+.description {
+    max-width: 50%;
+}
+
+.ingredients {
+    max-width: 50%;
+}
+
+.steps {
+    margin: 25px 15px;
+}
+
+.steps h2 {
+    width: fit-content;
+    margin: auto;
+}
+
+.ingredients-list li {
     margin-bottom: 8px;
 }
 
-.recipes li,
-.recipes a {
+.recipes {
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.recipes-list li,
+.recipes-list a {
     text-decoration: underline;
     color: #000;
     font-size: 22px;
